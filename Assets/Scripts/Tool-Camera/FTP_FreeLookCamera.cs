@@ -33,7 +33,7 @@ namespace FastToolsPackage
                 m_CameraCurrentRot.x -= fv * mouseSensitivity * Time.deltaTime;
 
                 m_CameraCurrentRot.x = Mathf.Clamp(m_CameraCurrentRot.x, -clampAngle, clampAngle);
-                transform.localEulerAngles= m_CameraCurrentRot;
+                transform.localEulerAngles = m_CameraCurrentRot;
             }
 
             if (Input.GetKeyDown(m_exitKey))
@@ -71,3 +71,19 @@ namespace FastToolsPackage
         }
     }
 }
+
+//float lookSpeed = 15.0f;
+//float moveSpeed = 15.0f;
+
+//float rotationX = 0.0f;
+//float rotationY = 0.0f;
+
+//void Update()
+//{
+//    rotationX += Input.GetAxis("Mouse X") * lookSpeed;
+//    rotationY += Input.GetAxis("Mouse Y") * lookSpeed;
+//    rotationY = Mathf.Clamp(rotationY, -80, 80);
+
+//    transform.localRotation = Quaternion.AngleAxis(rotationX, Vector3.up);
+//    transform.localRotation *= Quaternion.AngleAxis(rotationY, Vector3.left);
+//}
