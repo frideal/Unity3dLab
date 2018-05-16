@@ -68,8 +68,6 @@ namespace FastToolsPackage
         private void OnDisable()
         {
             EditorApplication.update -= Update;
-            transform.localPosition = new Vector3(0, 0, 0);
-            transform.rotation = new Quaternion();
         }
 
         private void OnEnable()
