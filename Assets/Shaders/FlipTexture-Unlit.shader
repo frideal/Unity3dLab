@@ -1,4 +1,4 @@
-﻿Shader "FTP_Shaders/Flip/Flip-Unlit"
+﻿Shader "Frideal_Shader/Flip/Flip-Unlit"
 {
 	Properties
 	{

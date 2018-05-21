@@ -1,4 +1,4 @@
-﻿Shader "FTP_Shaders/Flip/Flip-AlphaCutOff"
+﻿Shader "Frideal_Shader/Flip/Flip-AlphaCutOff"
 {
 	Properties
 	{

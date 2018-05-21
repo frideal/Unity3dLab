@@ -1,4 +1,4 @@
-﻿Shader "FTP_Shaders/Inside/Inside-UnlitColor"
+﻿Shader "Frideal_Shader/Inside/Inside-UnlitColor"
 {
 	Properties
 	{

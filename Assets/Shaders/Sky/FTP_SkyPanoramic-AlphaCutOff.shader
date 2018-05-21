@@ -1,4 +1,4 @@
-﻿Shader "FTP_Shaders/FTP_SkyPanoramic-AlphaCutOff"
+﻿Shader "Frideal_Shader/SkyPanoramic-AlphaCutOff"
 {
 	//
 	// Extend Unity's SkyPanoramic to support Alpha Cut Off

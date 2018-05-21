@@ -1,4 +1,4 @@
-Shader "FTP_Shaders/Inside/Inside-Surface" {
+Shader "Frideal_Shader/Inside/Inside-Surface" {
 	Properties
 	{
 		_MainTex ("Base (RGB)", 2D) = "white" {}
