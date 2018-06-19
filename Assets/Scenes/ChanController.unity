@@ -152,6 +152,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1898639459367844, guid: 48949af03dfd1ff44829a574ba2e513a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302878320187458, guid: 48949af03dfd1ff44829a574ba2e513a, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48949af03dfd1ff44829a574ba2e513a, type: 2}
   m_IsPrefabParent: 0
@@ -439,3 +447,44 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 951092139}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1129614782 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1302878320187458, guid: 48949af03dfd1ff44829a574ba2e513a,
+    type: 2}
+  m_PrefabInternal: {fileID: 38199802}
+--- !u!114 &1129614784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1129614782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c08ab3a5986e7bf4f97800db96a5473f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_VisualizeType: 2
+  m_NormalLength: 0.013
+  m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+  m_ColorFromDirection: 1
+--- !u!137 &1129614785 stripped
+SkinnedMeshRenderer:
+  m_PrefabParentObject: {fileID: 137022409748064100, guid: 48949af03dfd1ff44829a574ba2e513a,
+    type: 2}
+  m_PrefabInternal: {fileID: 38199802}
+--- !u!114 &1129614786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1129614782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a026740e00f1064db7bc01517ac2e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _showVertices: 0
+  _skinnedMesh: {fileID: 1129614785}
+  m_Size: 0.01
+  m_DrawColor: {r: 0, g: 1, b: 0, a: 1}
+  m_MaxVertexCount: 6000
