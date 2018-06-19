@@ -7,8 +7,11 @@
 #include "UnityShaderVariables.cginc"
 #include "UnityShaderUtilities.cginc"
 #include "UnityStandardCoreForward.cginc"
+#include "UnityCG.cginc"
 
 sampler2D _DispTex;
+uniform float4 _DispTex_ST;
+
 float _Displacement;
 float _Tess;
 float _Phong;
@@ -74,7 +77,8 @@ InternalTessInterp_appdata hs_standard (InputPatch<InternalTessInterp_appdata,3>
 
 void vert(inout VertexInput v)
 {
-	float d = tex2Dlod(_DispTex, float4(v.uv0.xy,0,0)).r * _Displacement;
+	float2 uv = TRANSFORM_TEX(v.uv0, _DispTex);
+	float d = tex2Dlod(_DispTex, float4(uv,0,0)).r * _Displacement;
 	v.vertex.xyz += v.normal * d;
 }
 

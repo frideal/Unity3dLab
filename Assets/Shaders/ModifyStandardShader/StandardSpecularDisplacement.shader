@@ -38,6 +38,7 @@
 
 		// add content for tessellation and displacement shader
 		_DispTex("Disp Texture", 2D) = "gray" {}
+
 		_Displacement("Displacement", Range(0, 1.0)) = 0.3
 		_Tess("Tessellation", Range(1,32)) = 4
 		_Phong("Phong Tess. Strength", Range(0,1)) = 0.5
