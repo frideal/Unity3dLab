@@ -9,7 +9,7 @@ namespace FastToolsPackage
     {
         private string st = "1.0";
 
-        [MenuItem("GameObject/Create Other/Create Inverted Sphere...")]
+        [MenuItem("FTP_Tools/Create Other/Create Inverted Sphere...")]
         public static void ShowWindow()
         {
             EditorWindow.GetWindow(typeof(FTP_InvertedSphere));
