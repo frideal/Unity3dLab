@@ -5,7 +5,7 @@ using UnityEngine;
 namespace FastToolsPackage
 {
     //
-    // Visualize normal
+    // Visualize Normal for vertex and face
     //
     public class FTP_NormalVisualize : MonoBehaviour
     {

@@ -9,6 +9,7 @@ namespace FastToolsPackage
     /// <summary>
     /// Code by Alex Lovett ( HeliosDoubleSix ) ( Shadowood.uk )
     /// Contact heliosdoublesix@gmail.com
+    /// Make game view follow the Scene View with Scene Camera
     /// </summary>
     [ExecuteInEditMode, InitializeOnLoad]
 #endif

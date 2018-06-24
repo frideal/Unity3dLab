@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace FastToolsPackage
 {
+    //
+    // Reverse Normals
+    //
     [RequireComponent(typeof(MeshFilter))]
     public class FTP_ReverseNormals : MonoBehaviour
     {
