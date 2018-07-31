@@ -112,6 +112,12 @@ namespace FastToolsPackage
                 {
                     if (components[j] == null)
                     {
+                        if (PrefabUtility.GetPrefabObject(gameObject) != null && PrefabUtility.GetPrefabType(gameObject) == PrefabType.PrefabInstance)
+                        {
+                            Debug.Log("<color=red>-->Prefab Object Please Delete Missing Script By Hand :" + gameObject.name + "</color>");
+                            break;
+                        }
+
                         EditorSceneManager.MarkSceneDirty(gameObject.scene);
                         prop.DeleteArrayElementAtIndex(j - r);
                         r++;
@@ -119,6 +125,8 @@ namespace FastToolsPackage
                 }
                 serializedObject.ApplyModifiedProperties();
             }
+
+            Debug.Log("## Remove Missing Script In Current Scene Over ##");
         }
     }
 }
