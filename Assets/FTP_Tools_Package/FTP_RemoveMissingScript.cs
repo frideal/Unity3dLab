@@ -94,6 +94,10 @@ namespace FastToolsPackage
             }
         }
 
+        //
+        // If U want to remove Prefab's missing script in the scene
+        // U should break the Prefab connection
+        //
         [MenuItem("FTP_Tools/Remove Missing Script in Current Scene", false, 40001)]
         static void RemoveMissingScript()
         {
