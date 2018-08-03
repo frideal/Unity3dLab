@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29dfa6c0075b8be41832d4539815cef1, type: 3}
+  m_Name: ScenePreviewData
+  m_EditorClassIdentifier: 
+  m_sceneList:
+  - m_targetScene: {fileID: 102900000, guid: 775f817d464e1d74892d6ea8675b3195, type: 3}
+    m_title: "LID\u5965"
+    m_des: 
+    m_previewTexture: {fileID: 2800000, guid: 412d2fc9e140899479dd04aef186c595, type: 3}
+  - m_targetScene: {fileID: 102900000, guid: 82af19ed76a8ed74fb1dd5d45c780da8, type: 3}
+    m_title: 
+    m_des: 
+    m_previewTexture: {fileID: 2800000, guid: ae3e5d957d07d2347a75c60de05308c1, type: 3}
+  - m_targetScene: {fileID: 0}
+    m_title: File
+    m_des: 
+    m_previewTexture: {fileID: 2800000, guid: ace081d5483eab448b1ffa64e80fa4e6, type: 3}
+  - m_targetScene: {fileID: 0}
+    m_title: 
+    m_des: 
+    m_previewTexture: {fileID: 2800000, guid: ae3e5d957d07d2347a75c60de05308c1, type: 3}
+  - m_targetScene: {fileID: 0}
+    m_title: 
+    m_des: 
+    m_previewTexture: {fileID: 2800000, guid: ae3e5d957d07d2347a75c60de05308c1, type: 3}
