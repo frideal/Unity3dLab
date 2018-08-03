@@ -178,8 +178,8 @@ namespace FastToolsPackage
                                     }
                                     else
                                     {
-                                        // EditorSceneManager.LoadScene(scenePath, LoadSceneMode.Single);
-                                        // Debug.Log("# Load new scene:" + scenePath);
+                                        EditorSceneManager.LoadScene(scenePath, LoadSceneMode.Single);
+                                        Debug.Log("# Load new scene:" + scenePath);
                                     }
                                 }
                             }
